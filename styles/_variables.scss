@@ -1,0 +1,27 @@
+// Colors
+// Primary
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+
+// Neutral
+
+$very-pale-blue: hsl(225, 100%, 98%);
+$desat-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+$purple: hsl(245, 83%, 68%);
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+$red-hat: 'Red Hat Display', sans-serif;
+$medium: 500;
+$bold7: 700;
+$bold9: 900;
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

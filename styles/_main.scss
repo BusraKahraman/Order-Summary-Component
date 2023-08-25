@@ -1,0 +1,26 @@
+.header {
+  @include flex-column;
+  margin-bottom: 0.5em;
+}
+
+.main {
+  border-radius: 0 0 1em 1em;
+
+  .main-txt {
+    text-align: center;
+    padding-bottom: 0;
+  }
+}
+
+@include responsive(769) {
+  .header {
+    margin-bottom: 0;
+    margin-top: 0.5em;
+  }
+  .main {
+    .main-txt {
+      padding: 1em 4em;
+      padding-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@mixin responsive($min-width) {
+  @media screen and (min-width: #{$min-width}px) {
+    @content;
+  }
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin bg-img {
+  background: url('/images/pattern-background-mobile.svg') no-repeat
+    center/cover;
+}
+
+@mixin bg-img-desktop {
+  background: url('/images/pattern-background-desktop.svg') no-repeat
+    center/cover;
+}

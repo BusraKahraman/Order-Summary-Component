@@ -1,0 +1,28 @@
+.payment {
+  border-radius: 0.7em;
+  padding: 1.2em 5em;
+  box-shadow: 0 10px 32px -15px $bright-blue;
+  border: none;
+}
+
+.cancel {
+  margin-top: 1em;
+  @include flex-column;
+}
+
+@include responsive(769) {
+  .payment {
+    margin: 0 4em;
+    padding: 1.2em 7em;
+  }
+
+  .payment:hover {
+    cursor: pointer;
+    background-color: $purple;
+  }
+
+  .cancel-txt:hover {
+    cursor: pointer;
+    color: black;
+  }
+}

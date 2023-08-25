@@ -1,0 +1,28 @@
+.annual {
+  @include flex-row;
+  margin: 2em 0;
+  border-radius: 1em;
+  padding: 1em 0.9em;
+
+  h2 {
+    font-size: 16px;
+  }
+  .price {
+    margin-right: 1em;
+  }
+}
+
+@include responsive(769) {
+  .annual {
+    margin: 1.2em 4em;
+  }
+
+  .price {
+    margin-right: 1em;
+  }
+  .change:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: $purple;
+  }
+}

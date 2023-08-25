@@ -1,0 +1,65 @@
+@import 'variables';
+
+.m {
+  font-weight: $medium;
+}
+
+.b7 {
+  font-weight: $bold7;
+}
+
+.b9 {
+  font-weight: $bold9;
+}
+
+.pb {
+  background-color: $pale-blue;
+}
+
+.txt-pb {
+  color: $pale-blue;
+}
+
+.bb {
+  background-color: $bright-blue;
+}
+
+.txt-bb {
+  color: $bright-blue;
+}
+
+.vpb {
+  background-color: $very-pale-blue;
+}
+
+.txt-vpb {
+  color: $very-pale-blue;
+}
+
+.deb {
+  background-color: $desat-blue;
+}
+
+.txt-deb {
+  color: $desat-blue;
+}
+
+.db {
+  background-color: $dark-blue;
+}
+
+.txt-db {
+  color: $dark-blue;
+}
+
+.white {
+  background-color: white;
+}
+
+.txt-white {
+  color: white;
+}
+
+.none {
+  text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  gap: 0;
+  grid-template-areas:
+    'one'
+    'two';
+  place-items: center;
+  align-content: center;
+  margin: auto;
+  max-width: 375px;
+}
+
+.header-img {
+  grid-area: one;
+  width: 80%;
+  border-radius: 1em 1em 0 0;
+}
+
+section {
+  width: 80%;
+  padding: 2em 1em;
+  box-shadow: 0 10px 32px -18px $desat-blue;
+}
+
+@include responsive(769) {
+  .container {
+    max-width: 769px;
+  }
+
+  .header-img,
+  section {
+    width: 60%;
+  }
+}
